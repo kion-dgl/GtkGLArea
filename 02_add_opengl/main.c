@@ -1,10 +1,15 @@
+/*****************************************************************************
+ * DashGL.com GTK GL-Area                                                    *
+ * This file is in the public domain                                         *
+ * Contributors: Benjamin Collins                                            *
+ *****************************************************************************/
+
 #include <GL/glew.h>
 #include <gtk/gtk.h>
 
 static void activate(GtkApplication *app, gpointer user_data);
 static void on_realize(GtkGLArea *area);
 static gboolean on_render(GtkGLArea *area, GdkGLContext *context);
-
 
 GLuint program;
 GLuint vao, vbo_triangle;

@@ -1,3 +1,9 @@
+/*****************************************************************************
+ * DashGL.com GTK GL-Area                                                    *
+ * This file is in the public domain                                         *
+ * Contributors: Benjamin Collins                                            *
+ *****************************************************************************/
+
 #include <gtk/gtk.h>
 
 static void activate(GtkApplication *app, gpointer user_data);

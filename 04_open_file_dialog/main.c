@@ -1,3 +1,9 @@
+/*****************************************************************************
+ * DashGL.com GTK GL-Area                                                    *
+ * This file is in the public domain                                         *
+ * Contributors: Benjamin Collins                                            *
+ *****************************************************************************/
+
 #include <GL/glew.h>
 #include <gtk/gtk.h>
 
